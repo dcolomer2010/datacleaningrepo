@@ -34,8 +34,8 @@ In order to process the original data into the tidy data set, following steps sh
 ### Execution
 1. __Init a R session on your working directory__ or change to the working directory (__setwd()__) to execute script.
 2. At session prompt, type ___source ("run_analysis.R")___. 
-'''{r}
+```{r}
 source("run_analysis.R")
-'''
+```
 This will load and launch the execution of the script.
 3. If everything it's ok, a file __tidy_data.txt__ has been added to the working directory.
