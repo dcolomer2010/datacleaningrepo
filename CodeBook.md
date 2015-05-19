@@ -114,6 +114,7 @@ fBodyBodyGyroJerkMag.meanFreq
 __run_analysis.R__ is commented for convenience, so it can be easier to go through the code. 
 
 Merging and cleaning process is performed through the following steps:
+
 1. PRE-STEP: Memory is cleared and required packages loaded: _data.table_ and _plyr_. If packages are not present in the system, there is an import of the packages before.
 2. For test data set and training data set the following steps are performed:
    + Subject information is loaded and stored in an intermediate table.
