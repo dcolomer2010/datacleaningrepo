@@ -68,8 +68,8 @@ For each entry in the file, the following attributes are included per line:
 
 * And the following features:
 
- | | | 
- -- | -- | -- | --
+feature name | feature name  | feature name  | feature name 
+------------ | ------------- | ------------- | ------------
 tBodyAcc.mean.[X-Y-Z] | tBodyAcc.std.[X-Y-Z] | tGravityAcc.mean.[X-Y-Z] | tGravityAcc.std.[X-Y-Z] 
 tBodyAccJerk.mean.[X-Y-Z] | tBodyAccJerk.std.[X-Y-Z] | tBodyGyro.mean.[X-Y-Z] | tBodyGyro.std.[X-Y-Z]
 tBodyGyroJerk.mean.[X-Y-Z] | tBodyGyroJerk.std.[X-Y-Z] | tBodyAccMag.mean | tBodyAccMag.std 
