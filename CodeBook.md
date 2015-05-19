@@ -12,6 +12,7 @@ Data for this practice is being recovered from the url defined in the assignemen
 
 ### Data Components
 Original data set is compound by different files within a directory tree
+
 working directory | +1 Level            | +2 Levels        | +3 Levels
 ----------------- | ------------------- | ---------------- | ---------------------
 UCI HAR Dataset   | activity_labels.txt |                  |  
