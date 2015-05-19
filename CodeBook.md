@@ -63,7 +63,7 @@ File __tidy_data.txt__ contains the result of merging test and training data set
 
 For each entry in the file, the following attributes are included per line:
 
-* activity -- Label of the activity performed during sensors reading by the subject (volunteer)
+* activity -- Label of the activity performed during sensors reading by the subject (volunteer). Possible values are LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS and WALKING_UPSTAIRS.
 * subject -- Id of the subject. A value within 1 to 30 range.
 
 * And the following features:
@@ -84,6 +84,8 @@ fBodyAccMag.std  | fBodyAccMag.meanFreq | fBodyBodyAccJerkMag.mean
 fBodyBodyAccJerkMag.std  | fBodyBodyAccJerkMag.meanFreq | fBodyBodyGyroMag.mean
 fBodyBodyGyroMag.std  | fBodyBodyGyroMag.meanFreq | fBodyBodyGyroJerkMag.mean
 fBodyBodyGyroJerkMag.std | fBodyBodyGyroJerkMag.meanFreq | 
+
+All these features are real values within the [-1..1] range.
 
 A complete description of the nature of the value store in the original data set can be found in __features_info.txt__ file. In tidy dataset this value is an average (mean) of the original data set values by activity and subject.
 
