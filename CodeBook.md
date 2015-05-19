@@ -59,55 +59,24 @@ X_test.txt | This file contains the values readed and/or computed for each of th
 X_train.txt | Equivalent file for the training data set.
 
 ## Tidy Data Set
-File tidy_data.txt contains the result of merging test and training data sets and calculate the mean of the features that are means or standard deviations of the related measures.
+File __tidy_data.txt__ contains the result of merging test and training data sets and calculate the mean of the features that are means or standard deviations of the related measures.
 
 For each entry in the file, the following attributes are included per line:
 
-Attribute | Description
---------- | -----------
-activity | Label of the activity performed during sensors reading by the subject (volunteer)
-subject | Id of the subject. A value within 1 to 30 range.
-tBodyAcc.mean.[X-Y-Z] | Mean time to obtain body acceleration by X-Y-Z axis. 
-tBodyAcc.std.[X-Y-Z] | Standard deviation of the time to obtain body acceleration by axis.
-tGravityAcc.mean.[X-Y-Z] | Mean time to obtain gravity acceleration by axis. 
-tGravityAcc.std.[X-Y-Z] | Standard deviation of the time to obtain gravity acceleration by axis.
-tBodyAccJerk.mean.[X-Y-Z]
-tBodyAccJerk.std.[X-Y-Z]
-tBodyGyro.mean.[X-Y-Z]
-tBodyGyro.std.[X-Y-Z]
-tBodyGyroJerk.mean.[X-Y-Z]
-tBodyGyroJerk.std.[X-Y-Z]
-tBodyAccMag.mean
-tBodyAccMag.std
-tGravityAccMag.mean 
-tGravityAccMag.std 
-tBodyAccJerkMag.mean 
-tBodyAccJerkMag.std 
-tBodyGyroMag.mean 
-tBodyGyroMag.std 
-tBodyGyroJerkMag.mean 
-tBodyGyroJerkMag.std 
-fBodyAcc.mean.[X-Y-Z]
-fBodyAcc.std.[X-Y-Z]
-fBodyAcc.meanFreq.[X-Y-Z]
-fBodyAccJerk.mean.[X-Y-Z]
-fBodyAccJerk.std.[X-Y-Z]
-fBodyAccJerk.meanFreq.[X-Y-Z]
-fBodyGyro.mean.[X-Y-Z]
-fBodyGyro.std.[X-Y-Z]
-fBodyGyro.meanFreq.[X-Y-Z]
-fBodyAccMag.mean 
-fBodyAccMag.std 
-fBodyAccMag.meanFreq 
-fBodyBodyAccJerkMag.mean 
-fBodyBodyAccJerkMag.std 
-fBodyBodyAccJerkMag.meanFreq 
-fBodyBodyGyroMag.mean 
-fBodyBodyGyroMag.std 
-fBodyBodyGyroMag.meanFreq 
-fBodyBodyGyroJerkMag.mean 
-fBodyBodyGyroJerkMag.std 
-fBodyBodyGyroJerkMag.meanFreq
+* activity -- Label of the activity performed during sensors reading by the subject (volunteer)
+* subject -- Id of the subject. A value within 1 to 30 range.
+
+* And the following features:
+
+tBodyAcc.mean.[X-Y-Z] | tBodyAcc.std.[X-Y-Z] | tGravityAcc.mean.[X-Y-Z] | tGravityAcc.std.[X-Y-Z] | tBodyAccJerk.mean.[X-Y-Z] | tBodyAccJerk.std.[X-Y-Z]
+tBodyGyro.mean.[X-Y-Z] | tBodyGyro.std.[X-Y-Z] | tBodyGyroJerk.mean.[X-Y-Z] | tBodyGyroJerk.std.[X-Y-Z] | tBodyAccMag.mean | tBodyAccMag.std 
+tGravityAccMag.mean | tGravityAccMag.std  | tBodyAccJerkMag.mean  | tBodyAccJerkMag.std  | tBodyGyroMag.mean  | tBodyGyroMag.std  
+tBodyGyroJerkMag.mean | tBodyGyroJerkMag.std  | fBodyAcc.mean.[X-Y-Z] | fBodyAcc.std.[X-Y-Z] | fBodyAcc.meanFreq.[X-Y-Z] | fBodyAccJerk.mean.[X-Y-Z]
+fBodyAccJerk.std.[X-Y-Z] | fBodyAccJerk.meanFreq.[X-Y-Z] | fBodyGyro.mean.[X-Y-Z] | fBodyGyro.std.[X-Y-Z] | fBodyGyro.meanFreq.[X-Y-Z] | fBodyAccMag.mean  |
+fBodyAccMag.std  | fBodyAccMag.meanFreq | fBodyBodyAccJerkMag.mean |  fBodyBodyAccJerkMag.std  | fBodyBodyAccJerkMag.meanFreq | fBodyBodyGyroMag.mean  |
+fBodyBodyGyroMag.std  | fBodyBodyGyroMag.meanFreq | fBodyBodyGyroJerkMag.mean  |fBodyBodyGyroJerkMag.std  |fBodyBodyGyroJerkMag.meanFreq |
+
+A complete description of the nature of the value store in the original data set can be found in __features_info.txt__ file. In tidy dataset this value is an average (mean) of the original data set values by activity and subject.
 
 ## Description of data processing.
 
