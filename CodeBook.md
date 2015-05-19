@@ -67,16 +67,16 @@ Attribute | Description
 --------- | -----------
 activity | Label of the activity performed during sensors reading by the subject (volunteer)
 subject | Id of the subject. A value within 1 to 30 range.
-tBodyAcc.mean.[X|Y|Z] | Mean time to obtain body acceleration by X|Y|Z axis. 
-tBodyAcc.std.[X|Y|Z] | Standard deviation of the time to obtain body acceleration by axis.
-tGravityAcc.mean.[X|Y|Z] | Mean time to obtain gravity acceleration by axis. 
-tGravityAcc.std.[X|Y|Z] | Standard deviation of the time to obtain gravity acceleration by axis.
-tBodyAccJerk.mean.[X|Y|Z]
-tBodyAccJerk.std.[X|Y|Z]
-tBodyGyro.mean.[X|Y|Z]
-tBodyGyro.std.[X|Y|Z]
-tBodyGyroJerk.mean.[X|Y|Z]
-tBodyGyroJerk.std.[X|Y|Z]
+tBodyAcc.mean.[X-Y-Z] | Mean time to obtain body acceleration by X-Y-Z axis. 
+tBodyAcc.std.[X-Y-Z] | Standard deviation of the time to obtain body acceleration by axis.
+tGravityAcc.mean.[X-Y-Z] | Mean time to obtain gravity acceleration by axis. 
+tGravityAcc.std.[X-Y-Z] | Standard deviation of the time to obtain gravity acceleration by axis.
+tBodyAccJerk.mean.[X-Y-Z]
+tBodyAccJerk.std.[X-Y-Z]
+tBodyGyro.mean.[X-Y-Z]
+tBodyGyro.std.[X-Y-Z]
+tBodyGyroJerk.mean.[X-Y-Z]
+tBodyGyroJerk.std.[X-Y-Z]
 tBodyAccMag.mean
 tBodyAccMag.std
 tGravityAccMag.mean 
@@ -87,15 +87,15 @@ tBodyGyroMag.mean
 tBodyGyroMag.std 
 tBodyGyroJerkMag.mean 
 tBodyGyroJerkMag.std 
-fBodyAcc.mean.[X|Y|Z]
-fBodyAcc.std.[X|Y|Z]
-fBodyAcc.meanFreq.[X|Y|Z]
-fBodyAccJerk.mean.[X|Y|Z]
-fBodyAccJerk.std.[X|Y|Z]
-fBodyAccJerk.meanFreq.[X|Y|Z]
-fBodyGyro.mean.[X|Y|Z]
-fBodyGyro.std.[X|Y|Z]
-fBodyGyro.meanFreq.[X|Y|Z]
+fBodyAcc.mean.[X-Y-Z]
+fBodyAcc.std.[X-Y-Z]
+fBodyAcc.meanFreq.[X-Y-Z]
+fBodyAccJerk.mean.[X-Y-Z]
+fBodyAccJerk.std.[X-Y-Z]
+fBodyAccJerk.meanFreq.[X-Y-Z]
+fBodyGyro.mean.[X-Y-Z]
+fBodyGyro.std.[X-Y-Z]
+fBodyGyro.meanFreq.[X-Y-Z]
 fBodyAccMag.mean 
 fBodyAccMag.std 
 fBodyAccMag.meanFreq 
