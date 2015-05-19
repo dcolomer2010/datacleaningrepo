@@ -1,8 +1,7 @@
 ***
 # Read Me - Getting and Cleaning Data Course Project
 
-This is the Readme file for the project assignement of Getting and Cleaning Data course from ...
-
+This is the Readme file for the peer assesment grading project of "Getting and Cleaning Data" course by Jeff Leek, PhD, Roger D. Peng, PhD, Brian Caffo, PhD 
 In the following sections 
 
 ## Project Assignement  
@@ -34,5 +33,9 @@ In order to process the original data into the tidy data set, following steps sh
 
 ### Execution
 1. __Init a R session on your working directory__ or change to the working directory (__setwd()__) to execute script.
-2. At session prompt, type ___source ("run_analysis.R")___. This will load and launch the execution of the script.
+2. At session prompt, type ___source ("run_analysis.R")___. 
+'''{r}
+source("run_analysis.R")
+'''
+This will load and launch the execution of the script.
 3. If everything it's ok, a file __tidy_data.txt__ has been added to the working directory.
